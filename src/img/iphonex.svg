@@ -1,0 +1,29 @@
+<svg width="450" height="817" viewBox="0 0 450 817" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>iphone x light</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-7861 -565)">
+<g id="iphone x light">
+<g id="iphone x dark">
+<g id="body" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(7909 599)" fill="#070707"/>
+</g>
+<g id="mask">
+<use xlink:href="#path1_fill" transform="translate(7920.97 611.003)" fill="#1D1D1D"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="7861" y="565" width="450" height="817" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="8.36138" dy="22.297"/>
+<feGaussianBlur stdDeviation="27.8713"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 40.6921C 0 18.2185 18.2185 0 40.6921 0L 296.308 0C 318.782 0 337 18.2185 337 40.6921L 337 663.308C 337 685.782 318.782 704 296.308 704L 40.6921 704C 18.2184 704 0 685.782 0 663.308L 0 40.6921Z"/>
+<path id="path1_fill" d="M 286.324 7.14529e-15C 272.206 7.14529e-15 248.744 7.14529e-15 247.352 7.14529e-15C 243.972 7.14529e-15 241.784 2.51403 240.989 7.03927C 238.305 23.129 229.556 24.2352 226.971 24.2352C 224.784 24.2352 88.3826 24.2352 86.096 24.2352C 83.5111 24.2352 74.6629 23.0285 72.078 7.03927C 71.3821 2.51403 69.1949 0 65.7153 0C 64.224 0 40.8608 0 26.7434 0C 12.6261 0 0 15.0842 0 29.4644C 0 43.8446 0 635.445 0 652.54C 0 670.34 17.8952 679.994 26.4452 679.994C 31.1178 679.994 281.949 679.994 286.622 679.994C 295.172 679.994 313.067 670.34 313.067 652.54C 313.067 635.445 313.067 37.6098 313.067 29.4644C 313.167 15.0842 300.441 7.14529e-15 286.324 7.14529e-15Z"/>
+</defs>
+</svg>
