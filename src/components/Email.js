@@ -1,14 +1,52 @@
 import React, { Component } from 'react';
 import arrow from '../img/arrow-down.svg';
+import firebase from '../firebase.js'
 
-class Email extends Component{
+class Email extends React.Component{
+
+    constructor(props) {
+      super(props);
+
+      this.state = {userEmail:''};
+      this.handleChange = this.handleChange.bind(this);
+      this.handleSubmit = this.handleSubmit.bind(this);
+
+    }
+
+    handleChange(event) {
+      this.setState({userEmail: event.target.value});
+    }
+
+    handleSubmit(event) {
+      
+      event.preventDefault();
+      const itemsRef = firebase.database().ref('emails');
+      const item = {
+        user: this.state.userEmail
+      }
+      itemsRef.push(item);
+      this.setState({
+
+        userEmail: ''
+    });
+    }
+
+
+    enviar(event){
+      event.preventDefault()
+      console.log('igor')
+    }
+
   render() {
     return (
       <div style={emailContainer} className="email">
-        <input style={emailStyle} id="text" type="text" placeholder="Coloque seu email" />
-        <button style={buttonStyle} id="btn-enviar">
+        <form onSubmit={this.handleSubmit}>
+        <input style={emailStyle} type="text" placeholder="Coloque seu email" value ={this.state.userEmail} onChange = {this.handleChange}/>
+         <button style={buttonStyle}>
           <img src={arrow} className="Arrow-enviar" alt="arrow"/>
         </button>
+        </form>
+
       </div>
     )
   }

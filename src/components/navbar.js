@@ -6,10 +6,25 @@ class Navbar extends Component{
     return(
     <div style={navbarStyle}className="navbar">
 
+      <div>
       <button style={buttonStyle}>Sobre</button>
+      </div>
+
+      <div>
       <button style={buttonStyle}>Parceiros</button>
+      </div>
+
+      <div>
       <button style={buttonStyle}>Ofertas</button>
+      </div>
+
+      <div>
       <button style={buttonStyle}>Contato</button>
+      </div>
+
+      <div>
+      <button style={buttonStyle}>Login</button>
+      </div>
 
     </div>
     )
@@ -25,7 +40,7 @@ const navbarStyle = {
   height:'20px',
   display:'flex',
   flexDirection:'row',
-  justifyContent: 'spaceAround',
+  justifyContent: 'spaceBetween',
   color:'white',
 
 }
