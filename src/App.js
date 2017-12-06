@@ -3,7 +3,8 @@ import helpSign from './img/help.svg';
 import iphoneImg from './img/iphonex.svg';
 import './App.css';
 import Email from './components/Email.js';
-import Navbar from './components/navbar.js'
+import Navbar from './components/navbar.js';
+import Textbox from './components/textbox.js'
 
 class App extends Component {
   render() {
@@ -17,18 +18,30 @@ class App extends Component {
 
         <Email/>
 
-        <img src={iphoneImg} className="iphone-img" alt="iphone" />
-
+        <img style={iphonStyle} src={iphoneImg} className="iphone-img" alt="iphone" />
+        <Textbox/>
         </header>
 
-
           <img src={helpSign} className="help-sign" alt="help" />
+
+
           <h2>Precisa de Ajuda?</h2>
           <p>m.oliverunb@gmail.com</p>
           <footer>powered by mouse labs ©</footer>
       </div>
     );
   }
+}
+
+const  iphonStyle = {
+
+    position:'absolute',
+    top:'588px',
+    botton:'587px',
+    right:'79px',
+    left:'1024px',
+    zIndex:'+1'
+
 }
 
 export default App;

@@ -18,7 +18,7 @@ class Email extends React.Component{
     }
 
     handleSubmit(event) {
-      
+
       event.preventDefault();
       const itemsRef = firebase.database().ref('emails');
       const item = {
@@ -32,10 +32,7 @@ class Email extends React.Component{
     }
 
 
-    enviar(event){
-      event.preventDefault()
-      console.log('igor')
-    }
+
 
   render() {
     return (

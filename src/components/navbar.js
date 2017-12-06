@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
-
+import firebase, { auth, provider } from '../firebase.js';
 
 class Navbar extends Component{
+
+
+  loginGoogle(){
+    firebase.auth().signInWithRedirect(provider)
+  }
+
   render() {
     return(
     <div style={navbarStyle}className="navbar">
@@ -23,7 +29,7 @@ class Navbar extends Component{
       </div>
 
       <div>
-      <button style={buttonStyle}>Login</button>
+      <button style={loginStyle} onClick ={this.loginGoogle} >Login</button>
       </div>
 
     </div>
@@ -33,11 +39,10 @@ class Navbar extends Component{
 }
 
 
+
 const navbarStyle = {
 
-  margin:'none !important',
-  width:'414px',
-  height:'20px',
+  margin:'none',
   display:'flex',
   flexDirection:'row',
   justifyContent: 'spaceBetween',
@@ -45,10 +50,23 @@ const navbarStyle = {
 
 }
 
+const loginStyle = {
+  position: 'absolute',
+  width: '76px',
+  height: '37px',
+  left: '1189px',
+  top: '24px',
+  background: '#F8E228',
+  borderRadius: '6px',
+  cursor:'pointer'
+}
+
 const buttonStyle = {
 
     color:'white',
     cursor:'pointer',
+    margin:'33px 45px 0 45px',
 
 };
+
 export  default Navbar;
