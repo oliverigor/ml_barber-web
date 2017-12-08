@@ -13,19 +13,19 @@ class Navbar extends Component{
     <div style={navbarStyle}className="navbar">
 
       <div>
-      <button style={buttonStyle}>Sobre</button>
+      <button style={buttonStyle1}>Sobre</button>
       </div>
 
       <div>
-      <button style={buttonStyle}>Parceiros</button>
+      <button style={buttonStyle2}>Parceiros</button>
       </div>
 
       <div>
-      <button style={buttonStyle}>Ofertas</button>
+      <button style={buttonStyle3}>Ofertas</button>
       </div>
 
       <div>
-      <button style={buttonStyle}>Contato</button>
+      <button style={buttonStyle4}>Contato</button>
       </div>
 
       <div>
@@ -42,9 +42,8 @@ class Navbar extends Component{
 
 const navbarStyle = {
 
-  margin:'none',
+  marginLeft:'35%',
   display:'flex',
-  flexDirection:'row',
   justifyContent: 'spaceBetween',
   color:'white',
 
@@ -54,18 +53,42 @@ const loginStyle = {
   position: 'absolute',
   width: '76px',
   height: '37px',
-  left: '1189px',
-  top: '24px',
+  left: '80%',
+  top: '20px',
   background: '#F8E228',
   borderRadius: '6px',
   cursor:'pointer'
 }
 
-const buttonStyle = {
+const buttonStyle1 = {
 
     color:'white',
     cursor:'pointer',
-    margin:'33px 45px 0 45px',
+    margin:'15% 45px 0 45px',
+
+};
+
+const buttonStyle2 = {
+
+    color:'white',
+    cursor:'pointer',
+    margin:'15% 45px 0 45px',
+
+};
+
+const buttonStyle3 = {
+
+    color:'white',
+    cursor:'pointer',
+    margin:'15% 45px 0 45px',
+
+};
+
+const buttonStyle4 = {
+
+    color:'white',
+    cursor:'pointer',
+    margin:'15% 45px 0 45px',
 
 };
 

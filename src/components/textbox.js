@@ -14,9 +14,10 @@ class Textbox extends Component {
 
 const divStyle = {
   position: 'absolute',
-  width: '1043px',
-  height: '771px',
-  left: '150px',
+  width: '70%',
+  height: '70%',
+  left: '15%',
+  right:'15%',
   top: '794px',
   background: '#FFFFFF',
   boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.25)',

@@ -50,12 +50,15 @@ class Email extends React.Component{
 }
 
 const emailContainer = {
-
+  position:'absolute',
+  left:'15%',
+  top:'55%',
   maxHeight:'64px'
 
 };
 
 const emailStyle = {
+
 
   padding:'0 0 0 36px',
   textAlign: 'left',
