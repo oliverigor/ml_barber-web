@@ -4,7 +4,7 @@ class Textbox extends Component {
   render() {
     return (
 
-      <div style ={divStyle}>
+      <div style ={divStyle} className="textbox">
         <h1>Pellentesque Inceptos</h1>
         <h2>Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</h2>
 
@@ -14,6 +14,7 @@ class Textbox extends Component {
 }
 
 const divStyle = {
+
 
   position:'absolute',
   left:'15%',
