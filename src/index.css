@@ -2,6 +2,8 @@ body, h1,h2,h3,p,input, button {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  position: relative;
+
 }
 
 h1 {
@@ -19,7 +21,38 @@ p {
   font-weight: 300;
 }
 
-button {
+.navbar button {
   font-size: 16px;
   font-weight: 500;
+  cursor: pointer;
+  color: white;
+  margin: 0 40px 0 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section {
+
+  position: relative;
+  display: inline-block;
+  height: 300px;
+  width: 100%;
+}
+
+.footer {
+
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+
+}
+
+.sectionHelp{
+
+  padding-bottom: 4%;
+  text-align: center;
+
 }

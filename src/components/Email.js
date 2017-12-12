@@ -52,7 +52,7 @@ class Email extends React.Component{
 const emailContainer = {
   position:'absolute',
   left:'15%',
-  top:'55%',
+  top:'40%',
   maxHeight:'64px'
 
 };
