@@ -59,7 +59,7 @@ const emailContainer = {
 
 const emailStyle = {
 
-
+  
   padding:'0 0 0 36px',
   textAlign: 'left',
   backgroundColor :'white',
@@ -73,6 +73,7 @@ const emailStyle = {
 
 const buttonStyle = {
 
+    position:'absolute',
     verticalAlign:'middle',
     background: '#F8E228',
     borderRadius: '0 6px 6px 0',
